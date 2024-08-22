@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 header{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -15,9 +16,11 @@ body{
 
 
 h1{
-    font-family: "Grey Qo", cursive;
-    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
     font-style: normal;
+    padding: 2%;
 }
 
 
@@ -26,20 +29,22 @@ p{
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
+    padding: 2%;
 }
 
 div{
     background-color: purple;
     width: 100px;
     height: 100px;
+    padding: 50px;
     position: relative;
     animation: movimento 5s infinite;
 }
 
 @keyframes movimento {
     0% {top: 0vh; left: 0vw;}
-    25% {top: 0vh; left: 92.5vw;}
-    50% {top: 88vh; left: 92.5vw;}
-    75% {top: 88vh; left: 0vw;}
+    25% {top: 0vh; left: 88.5vw;}
+    50% {top: 77vh; left: 88.5vw;}
+    75% {top: 77vh; left: 0vw;}
     100% {top: 0vh; left: 0vw;}
 }
