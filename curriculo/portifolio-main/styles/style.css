@@ -35,8 +35,16 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
     text-decoration: none;
+    border:  2px solid var(--cor-terciaria);
+    border-radius: 8px;
+    padding: 5.5px 10.3px;
+
+}
+
+.cabecalho__menu__link:hover {
+    background-color: var(--cor-hover);
 }
 
 .apresentacao {
